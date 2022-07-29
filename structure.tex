@@ -1,29 +1,33 @@
 \usepackage{geometry}
 \geometry{
 	paper=a4paper, 
-	top=2cm, 
-	bottom=2cm, 
-	left=2cm, 
-	right=2cm, 
-	headheight=14pt, 
-	footskip=1.4cm, 
-	headsep=10pt, 
+	top=20mm, 
+	bottom=20mm,  
+	right=25mm, 
+	nohead, 
+	nofoot,  
 	%showframe, 
 }
 
-\usepackage{lmodern}
-\usepackage{anyfontsize}
-\usepackage{t1enc}
-\usepackage{mathptmx}
+%\usepackage{lmodern}
+%\usepackage{anyfontsize}
+%\usepackage{t1enc}
+%\usepackage{mathptmx}
 \usepackage[T1,T2A]{fontenc}
 \usepackage[utf8]{inputenc}
-\usepackage[russian,english]{babel}
+\usepackage[unicode, pdftex]{hyperref}
+\usepackage[russian, english]{babel}
 \usepackage{amsmath,amsfonts,amssymb,amsthm} 
+\usepackage{setspace}
 \usepackage{mathtools}
-\usepackage{fontspec}
-\setmainfont{cmun}[
-Extension=.otf,
-UprightFont=*rm,
-ItalicFont=*ti,
-BoldFont=*bx,
-BoldItalicFont=*bi]
+	
+%\usepackage{fontspec}
+%\setmainfont{cmun}[
+%Extension=.otf,
+%UprightFont=*rm,
+%ItalicFont=*ti,
+%BoldFont=*bx,
+%BoldItalicFont=*bi]
+
+
+\newtheorem*{task}{Задача}
